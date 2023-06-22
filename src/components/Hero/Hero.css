@@ -1,0 +1,55 @@
+:root{
+	--color-neutral-black: #263238;
+	--color-neutral-dGrey: #4d4d4d;
+	--color-neutral-grey: #717171;
+	--color-neutral-lGrey: #89939E;
+	--color-neutral-greyBlue: #ABBED1;
+	--color-neutral-silver: #F5F7FA;
+	--color-neutral-white: #FFFFFF;
+
+	--color-primary: #4CAF4F;
+	--color-secondary: #263238;
+	--color-info: #2194f3;
+
+	--fontFamily: "Inter", sans-serif;
+  --font-styles-title: 600 4rem/4.75rem var(--fontFamily);
+  --font-styles-subtitle: 600 2.25rem/2.75rem var(--fontFamily);
+  --font-styles-headline3: 700 1.75rem/2.25rem var(--fontFamily);
+  --font-styles-headline4: 600 1.25rem/1.75rem var(--fontFamily);
+
+  --font-styles-body1: 400 1.1125rem/1.75rem var(--fontFamily);
+  --font-styles-body2: 400 1rem/1.5rem var(--fontFamily);
+  --font-styles-body3: 400 0.875rem/1.25rem var(--fontFamily);
+  --font-styles-body4: 400 0.75rem/1rem var(--fontFamily);
+}
+
+.hero-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: var(--color-neutral-silver);
+  height: 700px;
+  place-content: center;
+}
+
+.hero-container img{
+  flex: 1;
+}
+.hero-call-to-action{
+  flex: 2;
+}
+.hero-call-to-action h2{
+  font: var(--font-styles-title);
+  max-width: 700px;
+  margin-bottom: 1.25rem;
+}
+
+.hero-call-to-action span{
+  color: var(--color-primary);
+}
+.hero-call-to-action p{
+  margin-bottom: 3rem;
+}
+
+
