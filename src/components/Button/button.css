@@ -1,0 +1,29 @@
+.primaryButton{
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.buttonLarge{
+  padding: 16px 32px;
+  font: var(--font-styles-body2);
+}
+.buttonMedium{
+  padding:  14px 32px;
+  font: var(--font-styles-body3);
+}
+.buttonSmall{
+  padding: 8px 16px;
+  font: var(--font-styles-body4);
+}
+
+.primaryButton:hover{
+  background-color: #388E3B
+}
+
+.primaryButton::focus{
+  outline: 2px solid var(--color-neutral-black)
+}
