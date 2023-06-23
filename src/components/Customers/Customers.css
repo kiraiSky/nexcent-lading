@@ -1,0 +1,18 @@
+.customers-container{
+  padding: 40px;
+}
+
+.customers-container p{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.customers-logos{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.customers-logos img{
+  height: 6rem;
+}

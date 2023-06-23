@@ -72,3 +72,8 @@ a{
 	--font-styles-body3: 400 0.875rem/1.25rem;
 	--font-styles-body4: 400 0.75rem/1rem;
 }
+
+p{
+	color: var(--color-neutral-grey)
+
+}
