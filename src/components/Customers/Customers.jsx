@@ -11,7 +11,7 @@ import logo6 from '../../assets/customers/Logo-6.svg';
 const Customers = () => {
   return (
     <section className="customers-container">
-      <Subtitle text="Our clients" size="4rem" align="center" />
+      <Subtitle text="Our clients" size="3rem" align="center" />
       <p>We have been working with some Fortune 500+ clients</p>
       <div className="customers-logos">
         <img src={logo} alt="" />

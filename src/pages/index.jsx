@@ -1,3 +1,4 @@
+import Community from '../components/Community/Community';
 import Customers from '../components/Customers/Customers';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/Hero/Hero';
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <HeroSection />
       <Customers />
+      <Community />
     </>
   );
 };
